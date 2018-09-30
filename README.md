@@ -1,3 +1,5 @@
+[![Edit sanity-studio-on-codesandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/sanity-io/codesandbox-sanity-studio/tree/master/?module=%2FREADME.md)
+
 # Sanity Studio on Codesandbox
 
 This project uses Codesandbox’s server-side enviroment to run the development server for Sanity Studio.
