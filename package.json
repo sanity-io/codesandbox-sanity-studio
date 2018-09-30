@@ -1,0 +1,36 @@
+{
+  "name": "sanity-studio-on-codesandbox",
+  "version": "1.0.0",
+  "description": "Run Sanity Studio on Codesandbox. Visit sanity.io to learn more about the fully customizeable headless CMS",
+  "main": "package.json",
+  "scripts": {
+    "start": "sanity start",
+    "deploy": "sanity deploy",
+    "build": "sanity build",
+    "now-start": "node server.js",
+    "upgrade": "sanity upgrade",
+    "test": "sanity check"
+  },
+  "dependencies": {
+    "@sanity/base": "0.134.0",
+    "@sanity/components": "0.134.0",
+    "@sanity/core": "0.134.0",
+    "@sanity/default-layout": "0.134.0",
+    "@sanity/default-login": "0.134.0",
+    "@sanity/desk-tool": "0.134.0",
+    "@sanity/vision": "0.134.0",
+    "prop-types": "15.6.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-icons": "3.1.0"
+  },
+  "devDependencies": {
+    "@sanity/cli": "0.134.0"
+  },
+  "keywords": [
+    "sanity",
+    "react",
+    "headless",
+    "cms"
+  ]
+}
